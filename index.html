@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List avec État</title>
+    <!-- Lien vers Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center">Ma ToDo List</h2>
+    
+    <!-- Formulaire d'ajout de tâche -->
+    <div class="input-group mb-3">
+        <input type="text" id="tacheInput" class="form-control" placeholder="Saisissez une tâche ici,👉">
+        <button class="btn btn-success" onclick="ajouterTache()">Ajouter</button>
+    </div>
+
+    <!-- Liste des tâches -->
+    <strong><ul id="listeTaches" class="list-group"></ul>
+    
+        <!-- Les tâches ajoutées apparaîtront ici -->
+    </ul></strong>
+</div>
+
+<!-- JavaScript -->
+<script src="dom.js">
+  // Ici le code javascript qui se trouve sur une page (dom.js) externe.
+</script>
+
+<!-- Lien vers Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
